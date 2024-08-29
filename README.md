@@ -4,8 +4,8 @@ Essa é a solução para o desafio [Blog preview card](https://www.frontendmento
 
 ## Links
 
-- **URL da Solução:** [Repositório no GitHub](https://github.com/marcelomarcelino/QR-code-component)
-- **URL do Site:** [Acesse o projeto]()
+- **URL da Solução:** [Repositório no GitHub](https://github.com/marcelomarcelino/Blog-preview-card)
+- **URL do Site:** [Acesse o projeto](https://blog-preview-card-marcelo-marcelinos-projects.vercel.app/)
 
 ## Autor
 
