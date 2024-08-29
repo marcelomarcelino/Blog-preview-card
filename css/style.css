@@ -1,0 +1,127 @@
+:root {
+    --main-color: #F4D04E;
+    --bg-color: #FFFFFF;
+    --text-color1: #111111;
+    --text-color2: #6B6B6B;
+
+}
+
+h1,p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background: var(--main-color);
+    color: #111111;
+
+}
+
+.text-1 {
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.text-2 {
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.text-3 {
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    max-width: 385px;
+    background: var(--bg-color);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 0px 0px var(--text-color1);
+}
+
+.content{
+    display: grid;
+    gap: 12px;
+    justify-content: start;
+}
+
+.content a {
+    display: inline-block;
+    background: var(--main-color);
+    padding: 4px 12px;
+    font-weight: 900;
+    justify-self: start;
+    border-radius: 4px;
+}
+
+.content p {
+    color: var(--text-color2);
+}
+
+.container footer {
+    display: flex;
+    gap: 5.5px;
+    align-items: center;
+}
+
+.container footer img {
+    width: auto;
+}
+
+
+.container footer p {
+    font-weight: 900;
+}
+
+.attribution { 
+    margin-top: 12px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 450px){
+
+    .container {
+        max-width: 327px;
+    }
+
+    .text-1 {
+        font-size: 1.25rem;
+        line-height: 150%;
+    }
+    
+    .text-2 {
+        font-size: 0.875rem;
+        line-height: 150%;
+    }
+    
+    .text-3 {
+        font-size: 0.75rem;
+        line-height: 150%;
+    }
+
+}
